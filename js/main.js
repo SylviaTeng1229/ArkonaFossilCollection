@@ -26,6 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
 	var breakfirst = document.getElementById("BREAKFIRST");
 	var normal_cake = document.getElementById("NORMALCAKE");
 	var sandwich = document.getElementById("SANDWICH");
+	var crinoid = document.getElementById("CRINOID");
 	var others = document.getElementById("OTHERS");
 	
 	// Content divs
@@ -34,6 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
 	var breakfirst_content = document.getElementById("BREAKFIRST-CONTENT");
 	var normal_cake_content = document.getElementById("NORMALCAKE-CONTENT");
 	var sandwich_content = document.getElementById("SANDWICH-CONTENT");
+	var crinoid_content = document.getElementById("CRINOID-CONTENT");
 	var others_content = document.getElementById("OTHERS-CONTENT");
 	
 	// Event listeners
@@ -43,6 +45,7 @@ document.addEventListener("DOMContentLoaded", function() {
 		breakfirst_content.style.display = "none";
 		normal_cake_content.style.display = "none";
 		sandwich_content.style.display = "none";
+		crinoid_content.style.display = "none";
 		others_content.style.display = "none";
 	});
 	
@@ -52,6 +55,7 @@ document.addEventListener("DOMContentLoaded", function() {
 		breakfirst_content.style.display = "none";
 		normal_cake_content.style.display = "none";
 		sandwich_content.style.display = "none";
+		crinoid_content.style.display = "none";
 		others_content.style.display = "none";
 	});
 	
@@ -61,6 +65,7 @@ document.addEventListener("DOMContentLoaded", function() {
 		breakfirst_content.style.display = "block";
 		normal_cake_content.style.display = "none";
 		sandwich_content.style.display = "none";
+		crinoid_content.style.display = "none";
 		others_content.style.display = "none";
 	});
 	
@@ -70,6 +75,7 @@ document.addEventListener("DOMContentLoaded", function() {
 		breakfirst_content.style.display = "none";
 		normal_cake_content.style.display = "block";
 		sandwich_content.style.display = "none";
+		crinoid_content.style.display = "none";
 		others_content.style.display = "none";
 	});
 
@@ -79,15 +85,27 @@ document.addEventListener("DOMContentLoaded", function() {
 		breakfirst_content.style.display = "none";
 		normal_cake_content.style.display = "none";
 		sandwich_content.style.display = "block";
+		crinoid_content.style.display = "none";
 		others_content.style.display = "none";
 	});
 
+	crinoid.addEventListener("click", function() {
+		mond_cake_content.style.display = "none";
+		backed_food_content.style.display = "none";
+		breakfirst_content.style.display = "none";
+		normal_cake_content.style.display = "none";
+		sandwich_content.style.display = "none";
+		crinoid_content.style.display = "block";
+		others_content.style.display = "none";
+	});
+	
 	others.addEventListener("click", function() {
 		mond_cake_content.style.display = "none";
 		backed_food_content.style.display = "none";
 		breakfirst_content.style.display = "none";
 		normal_cake_content.style.display = "none";
 		sandwich_content.style.display = "none";
+		crinoid_content.style.display = "none";
 		others_content.style.display = "block";
 	});
 });
