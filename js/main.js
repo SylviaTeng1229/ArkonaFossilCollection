@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function() {
 	var breakfirst_content = document.getElementById("BREAKFIRST-CONTENT");
 	var normal_cake_content = document.getElementById("NORMALCAKE-CONTENT");
 	var sandwich_content = document.getElementById("SANDWICH-CONTENT");
-	var cephalopod = document.getElementById("CEPHALOPOD-CONTENT");
+	var cephalopod_content = document.getElementById("CEPHALOPOD-CONTENT");
 	var crinoid_content = document.getElementById("CRINOID-CONTENT");
 	var bivalve_content = document.getElementById("BIVALVE-CONTENT");
 	var microfossil_content = document.getElementById("MICROFOSSIL-CONTENT");
