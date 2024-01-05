@@ -30,6 +30,7 @@ document.addEventListener("DOMContentLoaded", function() {
 	var crinoid = document.getElementById("CRINOID");
 	var bivalve = document.getElementById("BIVALVE");
 	var microfossil = document.getElementById("MICROFOSSIL");
+	var trace_fossil = document.getElementById("TRACEFOSSIL");
 	var others = document.getElementById("OTHERS");
 	var unknown_fossil = document.getElementById("UNKNOWNFOSSIL");
 	
@@ -43,6 +44,7 @@ document.addEventListener("DOMContentLoaded", function() {
 	var crinoid_content = document.getElementById("CRINOID-CONTENT");
 	var bivalve_content = document.getElementById("BIVALVE-CONTENT");
 	var microfossil_content = document.getElementById("MICROFOSSIL-CONTENT");
+	var trace_fossil_content = document.getElementById("TRACEFOSSIL-CONTENT");
 	var others_content = document.getElementById("OTHERS-CONTENT");
 	var unknown_fossil_content = document.getElementById("UNKNOWNFOSSIL-CONTENT");
 	
@@ -57,6 +59,7 @@ document.addEventListener("DOMContentLoaded", function() {
 		crinoid_content.style.display = "none";
 		bivalve_content.style.display = "none";
 		microfossil_content.style.display = "none";
+		trace_fossil_content.style.display = "none";
 		others_content.style.display = "none";
 		unknown_fossil_content.style.display = "none";
 	});
@@ -71,6 +74,7 @@ document.addEventListener("DOMContentLoaded", function() {
 		crinoid_content.style.display = "none";
 		bivalve_content.style.display = "none";
 		microfossil_content.style.display = "none";
+		trace_fossil_content.style.display = "none";
 		others_content.style.display = "none";
 		unknown_fossil_content.style.display = "none";
 	});
@@ -85,6 +89,7 @@ document.addEventListener("DOMContentLoaded", function() {
 		crinoid_content.style.display = "none";
 		bivalve_content.style.display = "none";
 		microfossil_content.style.display = "none";
+		trace_fossil_content.style.display = "none";
 		others_content.style.display = "none";
 		unknown_fossil_content.style.display = "none";
 	});
@@ -99,6 +104,7 @@ document.addEventListener("DOMContentLoaded", function() {
 		crinoid_content.style.display = "none";
 		bivalve_content.style.display = "none";
 		microfossil_content.style.display = "none";
+		trace_fossil_content.style.display = "none";
 		others_content.style.display = "none";
 		unknown_fossil_content.style.display = "none";
 	});
@@ -113,6 +119,7 @@ document.addEventListener("DOMContentLoaded", function() {
 		crinoid_content.style.display = "none";
 		bivalve_content.style.display = "none";
 		microfossil_content.style.display = "none";
+		trace_fossil_content.style.display = "none";
 		others_content.style.display = "none";
 		unknown_fossil_content.style.display = "none";
 	});
@@ -127,6 +134,7 @@ document.addEventListener("DOMContentLoaded", function() {
 		crinoid_content.style.display = "none";
 		bivalve_content.style.display = "none";
 		microfossil_content.style.display = "none";
+		trace_fossil_content.style.display = "none";
 		others_content.style.display = "none";
 		unknown_fossil_content.style.display = "none";
 	});
@@ -141,6 +149,7 @@ document.addEventListener("DOMContentLoaded", function() {
 		crinoid_content.style.display = "block";
 		bivalve_content.style.display = "none";
 		microfossil_content.style.display = "none";
+		trace_fossil_content.style.display = "none";
 		others_content.style.display = "none";
 		unknown_fossil_content.style.display = "none";
 	});
@@ -155,6 +164,7 @@ document.addEventListener("DOMContentLoaded", function() {
 		crinoid_content.style.display = "none";
 		bivalve_content.style.display = "block";
 		microfossil_content.style.display = "none";
+		trace_fossil_content.style.display = "none";
 		others_content.style.display = "none";
 		unknown_fossil_content.style.display = "none";
 	});
@@ -169,6 +179,22 @@ document.addEventListener("DOMContentLoaded", function() {
 		crinoid_content.style.display = "none";
 		bivalve_content.style.display = "none";
 		microfossil_content.style.display = "block";
+		trace_fossil_content.style.display = "none";
+		others_content.style.display = "none";
+		unknown_fossil_content.style.display = "none";
+	});
+	
+	trace_fossil.addEventListener("click", function() {
+		mond_cake_content.style.display = "none";
+		backed_food_content.style.display = "none";
+		breakfirst_content.style.display = "none";
+		normal_cake_content.style.display = "none";
+		sandwich_content.style.display = "none";
+		cephalopod_content.style.display = "none";
+		crinoid_content.style.display = "none";
+		bivalve_content.style.display = "none";
+		microfossil_content.style.display = "none";
+		trace_fossil_content.style.display = "block";
 		others_content.style.display = "none";
 		unknown_fossil_content.style.display = "none";
 	});
@@ -183,6 +209,7 @@ document.addEventListener("DOMContentLoaded", function() {
 		crinoid_content.style.display = "none";
 		bivalve_content.style.display = "none";
 		microfossil_content.style.display = "none";
+		trace_fossil_content.style.display = "none";
 		others_content.style.display = "block";
 		unknown_fossil_content.style.display = "none";
 	});
@@ -197,6 +224,7 @@ document.addEventListener("DOMContentLoaded", function() {
 		crinoid_content.style.display = "none";
 		bivalve_content.style.display = "none";
 		microfossil_content.style.display = "none";
+		trace_fossil_content.style.display = "none";
 		others_content.style.display = "none";
 		unknown_fossil_content.style.display = "block";
 	});
