@@ -21,11 +21,11 @@ document.addEventListener("DOMContentLoaded", function() {
 	// document.getElementById("home-content").innerHTML = "Welcome to our website!";
 	
 	// Menu items
-	var mond_cake = document.getElementById("MONDCAKE");
-	var backed_food = document.getElementById("BACKEDFOOD");
-	var breakfirst = document.getElementById("BREAKFIRST");
-	var normal_cake = document.getElementById("NORMALCAKE");
-	var sandwich = document.getElementById("SANDWICH");
+	var trilobite = document.getElementById("TRILOBITE");
+	var brachiopod = document.getElementById("BRACHIOPOD");
+	var coral = document.getElementById("CORAL");
+	var bryozoan = document.getElementById("BRYOZOAN");
+	var gastropod = document.getElementById("GASTROPOD");
 	var cephalopod = document.getElementById("CEPHALOPOD");
 	var crinoid = document.getElementById("CRINOID");
 	var bivalve = document.getElementById("BIVALVE");
@@ -36,11 +36,11 @@ document.addEventListener("DOMContentLoaded", function() {
 	var unknown_fossil = document.getElementById("UNKNOWNFOSSIL");
 	
 	// Content divs
-	var mond_cake_content = document.getElementById("MONDCAKE-CONTENT");
-	var backed_food_content = document.getElementById("BACKEDFOOD-CONTENT");
-	var breakfirst_content = document.getElementById("BREAKFIRST-CONTENT");
-	var normal_cake_content = document.getElementById("NORMALCAKE-CONTENT");
-	var sandwich_content = document.getElementById("SANDWICH-CONTENT");
+	var trilobite_content = document.getElementById("TROLOBITE-CONTENT");
+	var brachiopod_content = document.getElementById("BRACHIOPOD-CONTENT");
+	var coral_content = document.getElementById("CORAL-CONTENT");
+	var bryozoan_content = document.getElementById("BRYOZOAN-CONTENT");
+	var gastropod_content = document.getElementById("GASTROPOD-CONTENT");
 	var cephalopod_content = document.getElementById("CEPHALOPOD-CONTENT");
 	var crinoid_content = document.getElementById("CRINOID-CONTENT");
 	var bivalve_content = document.getElementById("BIVALVE-CONTENT");
@@ -51,12 +51,12 @@ document.addEventListener("DOMContentLoaded", function() {
 	var unknown_fossil_content = document.getElementById("UNKNOWNFOSSIL-CONTENT");
 	
 	// Event listeners
-	mond_cake.addEventListener("click", function() {
-		mond_cake_content.style.display = "block";
-		backed_food_content.style.display = "none";
-		breakfirst_content.style.display = "none";
-		normal_cake_content.style.display = "none";
-		sandwich_content.style.display = "none";
+	trilobite.addEventListener("click", function() {
+		trilobite_content.style.display = "block";
+		brachiopod_content.style.display = "none";
+		coral_content.style.display = "none";
+		bryozoan_content.style.display = "none";
+		gastropod_content.style.display = "none";
 		cephalopod_content.style.display = "none";
 		crinoid_content.style.display = "none";
 		bivalve_content.style.display = "none";
@@ -67,12 +67,12 @@ document.addEventListener("DOMContentLoaded", function() {
 		unknown_fossil_content.style.display = "none";
 	});
 	
-	backed_food.addEventListener("click", function() {
-		mond_cake_content.style.display = "none";
-		backed_food_content.style.display = "block";
-		breakfirst_content.style.display = "none";
-		normal_cake_content.style.display = "none";
-		sandwich_content.style.display = "none";
+	brachiopod.addEventListener("click", function() {
+		trilobite_content.style.display = "none";
+		brachiopod_content.style.display = "block";
+		coral_content.style.display = "none";
+		bryozoan_content.style.display = "none";
+		gastropod_content.style.display = "none";
 		cephalopod_content.style.display = "none";
 		crinoid_content.style.display = "none";
 		bivalve_content.style.display = "none";
@@ -83,12 +83,12 @@ document.addEventListener("DOMContentLoaded", function() {
 		unknown_fossil_content.style.display = "none";
 	});
 	
-	breakfirst.addEventListener("click", function() {
-		mond_cake_content.style.display = "none";
-		backed_food_content.style.display = "none";
-		breakfirst_content.style.display = "block";
-		normal_cake_content.style.display = "none";
-		sandwich_content.style.display = "none";
+	coral.addEventListener("click", function() {
+		trilobite_content.style.display = "none";
+		brachiopod_content.style.display = "none";
+		coral_content.style.display = "block";
+		bryozoan_content.style.display = "none";
+		gastropod_content.style.display = "none";
 		cephalopod_content.style.display = "none";
 		crinoid_content.style.display = "none";
 		bivalve_content.style.display = "none";
@@ -99,12 +99,12 @@ document.addEventListener("DOMContentLoaded", function() {
 		unknown_fossil_content.style.display = "none";
 	});
 	
-	normal_cake.addEventListener("click", function() {
-		mond_cake_content.style.display = "none";
-		backed_food_content.style.display = "none";
-		breakfirst_content.style.display = "none";
-		normal_cake_content.style.display = "block";
-		sandwich_content.style.display = "none";
+	bryozoan.addEventListener("click", function() {
+		trilobite_content.style.display = "none";
+		brachiopod_content.style.display = "none";
+		coral_content.style.display = "none";
+		bryozoan_content.style.display = "block";
+		gastropod_content.style.display = "none";
 		cephalopod_content.style.display = "none";
 		crinoid_content.style.display = "none";
 		bivalve_content.style.display = "none";
@@ -115,12 +115,12 @@ document.addEventListener("DOMContentLoaded", function() {
 		unknown_fossil_content.style.display = "none";
 	});
 
-	sandwich.addEventListener("click", function() {
-		mond_cake_content.style.display = "none";
-		backed_food_content.style.display = "none";
-		breakfirst_content.style.display = "none";
-		normal_cake_content.style.display = "none";
-		sandwich_content.style.display = "block";
+	gastropod.addEventListener("click", function() {
+		trilobite_content.style.display = "none";
+		brachiopod_content.style.display = "none";
+		coral_content.style.display = "none";
+		bryozoan_content.style.display = "none";
+		gastropod_content.style.display = "block";
 		cephalopod_content.style.display = "none";
 		crinoid_content.style.display = "none";
 		bivalve_content.style.display = "none";
@@ -132,11 +132,11 @@ document.addEventListener("DOMContentLoaded", function() {
 	});
 
 	cephalopod.addEventListener("click", function() {
-		mond_cake_content.style.display = "none";
-		backed_food_content.style.display = "none";
-		breakfirst_content.style.display = "none";
-		normal_cake_content.style.display = "none";
-		sandwich_content.style.display = "none";
+		trilobite_content.style.display = "none";
+		brachiopod_content.style.display = "none";
+		coral_content.style.display = "none";
+		bryozoan_content.style.display = "none";
+		gastropod_content.style.display = "none";
 		cephalopod_content.style.display = "block";
 		crinoid_content.style.display = "none";
 		bivalve_content.style.display = "none";
@@ -148,11 +148,11 @@ document.addEventListener("DOMContentLoaded", function() {
 	});
 	
 	crinoid.addEventListener("click", function() {
-		mond_cake_content.style.display = "none";
-		backed_food_content.style.display = "none";
-		breakfirst_content.style.display = "none";
-		normal_cake_content.style.display = "none";
-		sandwich_content.style.display = "none";
+		trilobite_content.style.display = "none";
+		brachiopod_content.style.display = "none";
+		coral_content.style.display = "none";
+		bryozoan_content.style.display = "none";
+		gastropod_content.style.display = "none";
 		cephalopod_content.style.display = "none";
 		crinoid_content.style.display = "block";
 		bivalve_content.style.display = "none";
@@ -164,11 +164,11 @@ document.addEventListener("DOMContentLoaded", function() {
 	});
 	
 	bivalve.addEventListener("click", function() {
-		mond_cake_content.style.display = "none";
-		backed_food_content.style.display = "none";
-		breakfirst_content.style.display = "none";
-		normal_cake_content.style.display = "none";
-		sandwich_content.style.display = "none";
+		trilobite_content.style.display = "none";
+		brachiopod_content.style.display = "none";
+		coral_content.style.display = "none";
+		bryozoan_content.style.display = "none";
+		gastropod_content.style.display = "none";
 		cephalopod_content.style.display = "none";
 		crinoid_content.style.display = "none";
 		bivalve_content.style.display = "block";
@@ -180,11 +180,11 @@ document.addEventListener("DOMContentLoaded", function() {
 	});
 	
 	fish_material.addEventListener("click", function() {
-		mond_cake_content.style.display = "none";
-		backed_food_content.style.display = "none";
-		breakfirst_content.style.display = "none";
-		normal_cake_content.style.display = "none";
-		sandwich_content.style.display = "none";
+		trilobite_content.style.display = "none";
+		brachiopod_content.style.display = "none";
+		coral_content.style.display = "none";
+		bryozoan_content.style.display = "none";
+		gastropod_content.style.display = "none";
 		cephalopod_content.style.display = "none";
 		crinoid_content.style.display = "none";
 		bivalve_content.style.display = "none";
@@ -196,11 +196,11 @@ document.addEventListener("DOMContentLoaded", function() {
 	});
 
 	microfossil.addEventListener("click", function() {
-		mond_cake_content.style.display = "none";
-		backed_food_content.style.display = "none";
-		breakfirst_content.style.display = "none";
-		normal_cake_content.style.display = "none";
-		sandwich_content.style.display = "none";
+		trilobite_content.style.display = "none";
+		brachiopod_content.style.display = "none";
+		coral_content.style.display = "none";
+		bryozoan_content.style.display = "none";
+		gastropod_content.style.display = "none";
 		cephalopod_content.style.display = "none";
 		crinoid_content.style.display = "none";
 		bivalve_content.style.display = "none";
@@ -212,11 +212,11 @@ document.addEventListener("DOMContentLoaded", function() {
 	});
 	
 	trace_fossil.addEventListener("click", function() {
-		mond_cake_content.style.display = "none";
-		backed_food_content.style.display = "none";
-		breakfirst_content.style.display = "none";
-		normal_cake_content.style.display = "none";
-		sandwich_content.style.display = "none";
+		trilobite_content.style.display = "none";
+		brachiopod_content.style.display = "none";
+		coral_content.style.display = "none";
+		bryozoan_content.style.display = "none";
+		gastropod_content.style.display = "none";
 		cephalopod_content.style.display = "none";
 		crinoid_content.style.display = "none";
 		bivalve_content.style.display = "none";
@@ -228,11 +228,11 @@ document.addEventListener("DOMContentLoaded", function() {
 	});
 
 	others.addEventListener("click", function() {
-		mond_cake_content.style.display = "none";
-		backed_food_content.style.display = "none";
-		breakfirst_content.style.display = "none";
-		normal_cake_content.style.display = "none";
-		sandwich_content.style.display = "none";
+		trilobite_content.style.display = "none";
+		brachiopod_content.style.display = "none";
+		coral_content.style.display = "none";
+		bryozoan_content.style.display = "none";
+		gastropod_content.style.display = "none";
 		cephalopod_content.style.display = "none";
 		crinoid_content.style.display = "none";
 		bivalve_content.style.display = "none";
@@ -244,11 +244,11 @@ document.addEventListener("DOMContentLoaded", function() {
 	});
 
 	unknown_fossil.addEventListener("click", function() {
-		mond_cake_content.style.display = "none";
-		backed_food_content.style.display = "none";
-		breakfirst_content.style.display = "none";
-		normal_cake_content.style.display = "none";
-		sandwich_content.style.display = "none";
+		trilobite_content.style.display = "none";
+		brachiopod_content.style.display = "none";
+		coral_content.style.display = "none";
+		bryozoan_content.style.display = "none";
+		gastropod_content.style.display = "none";;
 		cephalopod_content.style.display = "none";
 		crinoid_content.style.display = "none";
 		bivalve_content.style.display = "none";
