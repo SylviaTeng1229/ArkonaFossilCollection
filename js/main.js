@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
 	var unknown_fossil = document.getElementById("UNKNOWNFOSSIL");
 	
 	// Content divs
-	var trilobite_content = document.getElementById("TROLOBITE-CONTENT");
+	var trilobite_content = document.getElementById("TRILOBITE-CONTENT");
 	var brachiopod_content = document.getElementById("BRACHIOPOD-CONTENT");
 	var coral_content = document.getElementById("CORAL-CONTENT");
 	var bryozoan_content = document.getElementById("BRYOZOAN-CONTENT");
